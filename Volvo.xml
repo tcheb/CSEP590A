@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Car Name="Volvo V70R" Owner="Volvo">
+	<Assembly Name="Front Subframe" Quantity="1" Owner="Polestar" Geometry="Front Subframe geometry">
+		<Assembly Name="Front Strut" Quantity="2" Geometry="Front Strut geometry">
+			<Part Name="Strut housing" Quantity="1" Geometry="Strut housing geometry"/>
+			<Part Name="Upper bearing" Quantity="1" Geometry="Upper bearing geometry" interfacesWith="Chassis"/>
+			<Part Name="Shock absorber" Quantity="1" Geometry="Shock absorber geometry"/>
+			<Part Name="Spring" Quantity="1" Geometry="Spring geometry"/>
+			<Assembly Name="Brake caliper" Quantity="1" Owner="Brembo" Geometry="Brake caliper geometry">
+				<Part Name="Pad wear sensor" Quantity="1" Geometry="Pad wear sensor geometry"/>
+				<Part Name="Bleeder screw" Quantity="1" Geometry="Bleeder screw geometry"/>
+				<Part Name="Caliper body" Quantity="1" Geometry="Caliper body geometry" interfacesWith="Strut housing"/>
+				<Part Name="Anti-rattle clip" Quantity="1" Geometry="Anti-rattle clip geometry"/>
+			</Assembly>
+		</Assembly>
+		<Part Name="Stabilizer bar" Quantity="1" Geometry="Stabilizer bar geometry"/>
+		<Part Name="Bushing" Quantity="4" Geometry="Bushing geometry"/>
+	</Assembly>
+	<Part Name="Chassis" Quantity="1" Geometry="Chassis geometry"/>
+	<Part Name="Rear Subframe" Quantity="1" Geometry="Rear Subframe geometry"/>
+</Car>

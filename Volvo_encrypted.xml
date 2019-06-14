@@ -1,0 +1,20 @@
+<Car AccessPolicy="()" Name="Volvo V70R" Owner="Volvo">
+	<Assembly AccessPolicy="('Polestar',)" Geometry="4979993fb4e1918df4b71192631ad379e488c47b5d435d8173e07dad254d0763" KeyShare="[(47595, 38575), (5342, 51982.48234263742)]" Name="Front Subframe" Owner="Polestar" Quantity="1">
+		<Assembly AccessPolicy="('Polestar',)" Geometry="0fd38ff09ba5ed6af2125b4cc3d525681ed8a54c5b558a6ee84f54685b0a2a4d" KeyShare="[(47595, 38575), (5342, 51982.48234263742)]" Name="Front Strut" Quantity="2">
+			<Part AccessPolicy="('Polestar', 'Brembo')" Geometry="7ff381d1a15f310e2bcbcf2aa11f94625ac6d8f1cf74a99cae3d2464aee47a21" KeyShare="[(9396, 50163.56608908101), (734, 37579.05027869038)]" Name="Strut housing" Quantity="1" />
+			<Part AccessPolicy="('Polestar',)" Geometry="5557f6dc3be8da71645703a091402b443108ed6e85be1689d16865959564a0bb" KeyShare="[(47595, 38575), (5342, 51982.48234263742)]" Name="Upper bearing" Quantity="1" interfacesWith="Chassis" />
+			<Part AccessPolicy="('Polestar',)" Geometry="318747d212e2077c33d0c8ea5ff7b681e488c47b5d435d8173e07dad254d0763" KeyShare="[(47595, 38575), (5342, 51982.48234263742)]" Name="Shock absorber" Quantity="1" />
+			<Part AccessPolicy="('Polestar',)" Geometry="8eb9532d5d326637c317e51f0ab99f2d" KeyShare="[(47595, 38575), (5342, 51982.48234263742)]" Name="Spring" Quantity="1" />
+			<Assembly AccessPolicy="('Brembo',)" Geometry="ea0a67e56a6038b0504ebb53248692a6f3d563b1426847d83d7ae9d34333208a" KeyShare="[(30142, 17574), (13958, 36221.155282078325)]" Name="Brake caliper" Owner="Brembo" Quantity="1">
+				<Part AccessPolicy="('Brembo',)" Geometry="ba9b5230fce0738e3435684d30cb55fbdd173db5a6f47afa310966859ed9ecaa" KeyShare="[(30142, 17574), (13958, 36221.155282078325)]" Name="Pad wear sensor" Quantity="1" />
+				<Part AccessPolicy="('Brembo',)" Geometry="5299175f9eb579515a337cec34505225f3d563b1426847d83d7ae9d34333208a" KeyShare="[(30142, 17574), (13958, 36221.155282078325)]" Name="Bleeder screw" Quantity="1" />
+				<Part AccessPolicy="('Brembo',)" Geometry="9f6d0495f8ad5fca458a878980172bc9f2b653fff17dad7e8662f3df06b2044c" KeyShare="[(30142, 17574), (13958, 36221.155282078325)]" Name="Caliper body" Quantity="1" interfacesWith="Strut housing" />
+				<Part AccessPolicy="('Brembo',)" Geometry="67d659eec8e60dd7eb1c27fdba971c5a79ab548277cd68455e8048f728f23629" KeyShare="[(30142, 17574), (13958, 36221.155282078325)]" Name="Anti-rattle clip" Quantity="1" />
+			</Assembly>
+		</Assembly>
+		<Part AccessPolicy="('Polestar',)" Geometry="664da5c5ce8587379010733476b43cb4e488c47b5d435d8173e07dad254d0763" KeyShare="[(47595, 38575), (5342, 51982.48234263742)]" Name="Stabilizer bar" Quantity="1" />
+		<Part AccessPolicy="('Polestar',)" Geometry="1c7044d122223a41f0d5073565ec354f78abe10e87c4a7a126c7b5046a48e93c" KeyShare="[(47595, 38575), (5342, 51982.48234263742)]" Name="Bushing" Quantity="4" />
+	</Assembly>
+	<Part AccessPolicy="('Polestar',)" Geometry="5b7aaf4776b2f28c5e31f59a5385885578abe10e87c4a7a126c7b5046a48e93c" KeyShare="[(47595, 38575), (5342, 51982.48234263742)]" Name="Chassis" Quantity="1" />
+	<Part AccessPolicy="()" Geometry="1222fc9725b69ad658436b4962e318858b99deb00dd00cb2f9c6b2643657ac99" KeyShare="[(27565, 48338), (35001, 34822)]" Name="Rear Subframe" Quantity="1" />
+</Car>

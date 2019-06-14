@@ -1,0 +1,20 @@
+<Car AccessPolicy="()" Name="Volvo V70R" Owner="Volvo">
+	<Assembly AccessPolicy="('Polestar',)" Geometry="Front Subframe geometry" KeyShare="[(47595, 38575), (5342, 51982.48234263742)]" Name="Front Subframe" Owner="Polestar" Quantity="1">
+		<Assembly AccessPolicy="('Polestar',)" Geometry="Front Strut geometry" KeyShare="[(47595, 38575), (5342, 51982.48234263742)]" Name="Front Strut" Quantity="2">
+			<Part AccessPolicy="('Polestar', 'Brembo')" Geometry="Strut housing geometry" KeyShare="[(9396, 50163.56608908101), (734, 37579.05027869038)]" Name="Strut housing" Quantity="1" />
+			<Part AccessPolicy="('Polestar',)" Geometry="Upper bearing geometry" KeyShare="[(47595, 38575), (5342, 51982.48234263742)]" Name="Upper bearing" Quantity="1" interfacesWith="Chassis" />
+			<Part AccessPolicy="('Polestar',)" Geometry="Shock absorber geometry" KeyShare="[(47595, 38575), (5342, 51982.48234263742)]" Name="Shock absorber" Quantity="1" />
+			<Part AccessPolicy="('Polestar',)" Geometry="Spring geometry" KeyShare="[(47595, 38575), (5342, 51982.48234263742)]" Name="Spring" Quantity="1" />
+			<Assembly AccessPolicy="('Brembo',)" Geometry="" KeyShare="[(30142, 17574), (13958, 36221.155282078325)]" Name="Brake caliper" Owner="Brembo" Quantity="1">
+				<Part AccessPolicy="('Brembo',)" Geometry="" KeyShare="[(30142, 17574), (13958, 36221.155282078325)]" Name="Pad wear sensor" Quantity="1" />
+				<Part AccessPolicy="('Brembo',)" Geometry="" KeyShare="[(30142, 17574), (13958, 36221.155282078325)]" Name="Bleeder screw" Quantity="1" />
+				<Part AccessPolicy="('Brembo',)" Geometry="" KeyShare="[(30142, 17574), (13958, 36221.155282078325)]" Name="Caliper body" Quantity="1" interfacesWith="Strut housing" />
+				<Part AccessPolicy="('Brembo',)" Geometry="" KeyShare="[(30142, 17574), (13958, 36221.155282078325)]" Name="Anti-rattle clip" Quantity="1" />
+			</Assembly>
+		</Assembly>
+		<Part AccessPolicy="('Polestar',)" Geometry="Stabilizer bar geometry" KeyShare="[(47595, 38575), (5342, 51982.48234263742)]" Name="Stabilizer bar" Quantity="1" />
+		<Part AccessPolicy="('Polestar',)" Geometry="Bushing geometry" KeyShare="[(47595, 38575), (5342, 51982.48234263742)]" Name="Bushing" Quantity="4" />
+	</Assembly>
+	<Part AccessPolicy="('Polestar',)" Geometry="Chassis geometry" KeyShare="[(47595, 38575), (5342, 51982.48234263742)]" Name="Chassis" Quantity="1" />
+	<Part AccessPolicy="()" Geometry="" KeyShare="[(27565, 48338), (35001, 34822)]" Name="Rear Subframe" Quantity="1" />
+</Car>
