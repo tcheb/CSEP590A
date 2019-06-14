@@ -2,8 +2,10 @@
 
 ## code
 project.py  
-    usage: python project.py mode xmlFileName [keyFileName]  
-      mode: e=encrypt / d=decrypt  
+```
+usage: python project.py mode xmlFileName [keyFileName]  
+mode: e=encrypt / d=decrypt  
+```
 
 ## xml files
 Volvo.xml - input file for encryption  
